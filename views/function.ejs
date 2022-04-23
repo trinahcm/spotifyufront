@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/home.css">
+        <title>SpotifyU</title>
+    </head>
+    
+    <body>
+        <header>
+            <!-- <a>href ="#"</a> -->
+            <img class="logo" img style="height:50px" src="images/spotifyu.png" alt="SpotifyU">
+            <!-- <a class= "nav-title" href ="#" SpotifyU></a> -->
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="home">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="function">Search</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <!-- description  -->
+    <div class="containerTop">
+        <div class="intro">
+            <h1>Description</h1>
+            <h3>How-to:</h3>
+            <p class="quote">Description on how to answer question</p>
+        </div>
+    </div>
+
+    <!-- search bar  -->
+    <div>
+        <form action="/" class="d-flex" method="POST">
+            <!-- {% csrf_token %} -->
+            <input class="form-control me-2" type="text" placeholder="Enter a song here" aria-label="Search"
+                name="searchbar">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- search results-->
+    <div id="" search-results>
+
+    </div>
+</body>
+<script src="search.js"></script>
+
+
+</html>
